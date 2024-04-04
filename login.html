@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+  <title>Login Page</title>
+  <style>
+   
+    
+
+  </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+         <div class="left-text">
+           <!-- Background image will go here -->
+           <div class="upper-text-part">
+            <div class="logotext">Dribbble</div>
+            <div class="text1">
+             <div> Discover the world's top </div>
+              <div>designers & Creatives</div>
+            </div>
+
+          </div>
+          <div class="lower-text-part">
+            Art by <a href="https://petertarka.com">Peter Tarka</a>.
+          </div>
+         </div>
+        </div>
+        <div class="right-section">
+  <!-- "Already registered? Login here" link -->
+  <div href="login.html" class="login-link">Already registered? <a href="index.html" style="text-decoration: none;">Sign In</a> </div>
+     
+          <form action="#">
+            <h2 class="form-title" >Sign Up to Dribbble</h2>
+             <!-- Alert message for existing username -->
+      <div id="username-exists-alert" style="display: none; color: red; margin:10px">
+        <i class="fa-solid fa-circle"></i> Username already exists!.
+      </div>
+            <div class="input-row">
+                <div class="input-container">
+                  
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" placeholder="Name" required>
+               
+                 </div>
+                <div class="input-container">
+                  <label for="username" class="username"><i class="fa-solid fa-triangle-exclamation" id="warning" style="display: none;"></i>Username</label>
+                  <input type="text" id="username" name="username" placeholder="Username" required>
+                 </div>
+              </div>
+
+              
+            <div class="input-row">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="input-row">
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" placeholder="6+ Charecters" required>
+            </div>
+            <div class="input-row-c">
+                <input type="checkbox" id="done" name="done">
+                <label for="done" >Creating an account means you're okay with our <a href="terms_and_services.html">Terms of Services </a>,<a href="terms_and_services.html">Privacy Policy</a>, and our default <a href="terms_and_services.html">Notification Setting</a>.</label>
+              </div>
+            <input type="submit" value="Create Account" >
+              <!-- Divs for Privacy Policy and Terms and Services -->
+      <div class="policy">
+        This site is protected by reCAPTCHA and the google <a href="privacy_policy.html">Privacy Policy</a> and <a href="terms_and_services.html">Terms and Services</a> apply.
+      </div>
+          </form>
+        </div>
+      </div>
+    
+      <script src="script.js"></script>
+</body>
+</html>

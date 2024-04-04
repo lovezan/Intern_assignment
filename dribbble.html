@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap"
+      rel="stylesheet"
+    />
+    <title>Dribbble Onboarding</title>
+
+    <style></style>
+  </head>
+  <body>
+    <div class="container1">
+        <nav class="navbar">
+          <div class="logo">
+            Dribbble
+          </div>
+          <div class="spacer"></div>
+        </nav>
+      
+        <div class="content">
+          <div class="question1">
+            <p>What brings you to Dribbble?</p>
+          </div>
+      
+          <div class="optionhere">
+            Select the option that beat bescribe you. Don't worry, you can explore other options later.
+          </div>
+      
+          <section class="options">
+            <div class="option" onclick="toggleAfterClick(this)">
+              <img src="2.png" alt="Designer Icon">
+              <p class="text-1">I'm a designer looking to share my work</p>
+              <p class="after-click" style="display: none;" >Woth over 7 million shots from a vast community of designers,drubble is the leading for design inspiration</p>
+              <div class="circle-icon icon-sec"></div>
+            
+              
+            </div>
+            <div class="option" onclick="toggleAfterClick(this)">
+              <img src="3.png" alt="Hire Icon">
+              <p>I'm looking to hire a designer</p>
+              <div class="circle-icon icon-sec"></div>
+              
+            </div>
+            <div class="option" onclick="toggleAfterClick(this)">
+              <img src="1.png" alt="Inspiration Icon">
+              <p>I'm looking for design inspiration</p>
+              <div class="circle-icon icon-sec"></div>
+              
+            </div>
+          </section>
+      
+          <div class="question">
+            <p class="multiple" style="display: none;" >Anything else? You can select multiple</p>
+          </div>
+      
+          <nav class="finish-nav">
+            <button id="finish-button">Finish</button>
+            <p class="press-button" style="display: none;"  onclick="redirectToLogin()">(or Press RETURN)</p>
+          </nav>
+        </div>
+      </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+
+      <img id="uploadedImage" src="#" alt="Uploaded Image" accept="image/png, image/jpeg" style="display:;">
+      <input type='file' id="readUrl">
+
+    <script>
+        document.getElementById('readUrl').addEventListener('change', function(){
+            if (this.files[0] ) {
+              var picture = new FileReader();
+              picture.readAsDataURL(this.files[0]);
+              picture.addEventListener('load', function(event) {
+                document.getElementById('uploadedImage').setAttribute('src', event.target.result);
+                document.getElementById('uploadedImage').style.display = 'block';
+              });
+            }
+          });
+    </script>
+  </body>
+</html>

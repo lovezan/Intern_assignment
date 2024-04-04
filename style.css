@@ -1,0 +1,1069 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* ******************************SIGNUP PAGE CSS STARTS HERE **************************/
+.left-section {
+  flex: 1;
+  background: url("backsignup.jpeg") no-repeat center center;
+  background-color: #f5d389;
+  background-size: auto;
+  display: flex;
+
+  flex-direction: column;
+}
+.left-section .left-text {
+  flex: 1;
+  background: url("backsignup.jpeg") no-repeat center center;
+  background-color: #f5d389;
+  background-size: auto;
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  margin: 20px 100px;
+}
+
+.upper-text-part {
+  margin-bottom: auto; /* Push this element to the top */
+}
+
+.lower-text-part {
+  color: #695a39;
+  margin-top: auto; /* Push this element to the bottom */
+}
+
+.logotext {
+  font-family: "Style Script", cursive;
+  font-size: 40px;
+  font-weight: bold;
+
+  color: #c1a059;
+}
+
+.text1 {
+  color: #64522a;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+.left-section img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+
+  height: 100vh;
+}
+
+.input-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.input-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 0px 30px 0px;
+}
+.input-container {
+  flex: 1;
+  margin-right: 10px; /* Adjust spacing between input containers */
+}
+.input-container .username {
+  flex: 1;
+  margin-right: 10px; /* Adjust spacing between input containers */
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+#username-exists-alert {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#username-exists-alert i {
+  color: red;
+  font-size: 7px;
+  text-align: center;
+}
+.input-container .username i {
+  color: red;
+}
+.input-container:last-child {
+  margin-right: 0;
+}
+.right-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form-title {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+/* Style for the "Already registered? Login here" link */
+.login-link {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  text-decoration: none;
+  color: #333;
+}
+
+form {
+  width: 300px;
+  padding: 20px;
+
+  background-color: #ffffff;
+}
+input {
+  background-color: rgb(239, 239, 239);
+  outline: none; /* Remove outline */
+}
+label {
+  font-size: medium;
+  font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.policy {
+  margin: 20px 0px 20px 0px;
+  font-size: 10px;
+  width: 250px;
+  color: rgb(146, 146, 146);
+}
+.policy a {
+  text-decoration: none;
+  margin-top: 20px;
+}
+a {
+  text-decoration: none;
+}
+.input-row-c {
+  display: flex;
+  margin: 20px 0px 20px 0px;
+  align-items: start;
+}
+.input-row-c .checkbox {
+  display: flex;
+  align-items: end;
+}
+.input-row-c label {
+  font-size: 10px;
+  color: rgb(130, 130, 130);
+}
+input[type="submit"] {
+  background-color: #e64a93;
+  color: white;
+  width: 160px;
+  height: 30px;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+/* ******************************SIGNUP PAGE CSS ENDS HERE **************************/
+/* ******************************************************************************** */
+
+/* ******************************************************************************** */
+/* ******************************PROFILE CSS STARTS HERE **************************/
+.container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.optionhere {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(105, 104, 104);
+}
+.navbar {
+  background-color: #ffffff;
+  color: rgb(223, 50, 171);
+  padding: 10px;
+  height: 40px;
+  width: 100%;
+}
+
+.logo {
+  font-size: 30px;
+  margin-left: 20px;
+  font-family: "Style Script", cursive;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+.question1 {
+  margin: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+}
+.question {
+  margin: 20px;
+  text-align: center;
+  font-size: 18px;
+  /* font-weight: 800; */
+}
+
+.options-navbar {
+  background-color: #f2f2f2;
+  padding: 10px;
+  width: 100%;
+}
+
+.options-navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.options-navbar ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.options-navbar ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.options {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  /* height: 45vh; */
+  margin: 20px;
+}
+
+.option {
+  border: 0.2px solid rgb(206, 204, 204);
+
+  text-align: center;
+  height: 40vh;
+  width: 20vw;
+  margin: 30px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  transition: border-color 0.3s ease;
+}
+.icon-sec {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #bebdbd;
+  margin-top: 10px; /* Adjust as needed */
+  cursor: pointer;
+}
+.option .fa-circle-check {
+  width: 20px;
+  height: 20px;
+  border: none;
+  /* border-radius: 50%; */
+  color: #e64a93;
+  /* border: 1px solid #232323; */
+  margin-top: 10px; /* Adjust as needed */
+  cursor: pointer;
+}
+
+.option.active {
+  border: 2px solid #e64a93;
+
+  border-color: rgb(246, 81, 108); /* Change border color when active */
+}
+.option:hover {
+  border: 3px solid #e64a93;
+
+  text-align: center;
+  height: 40vh;
+  width: 20vw;
+  margin: 30px;
+  border-radius: 15px;
+}
+.option .after-click {
+  font-size: 10px;
+  margin: 0;
+}
+.option circle-icon {
+  align-items: center;
+  position: fixed;
+  font-size: 2em;
+  color: rgb(204, 194, 194);
+}
+.fa-check-circle:before,
+.fa-circle-check:before {
+  content: "\f058";
+}
+
+.option p {
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  width: 14rem;
+  margin: 10px;
+}
+
+.option img {
+  width: 200px;
+  height: 110px;
+}
+
+.finish-nav {
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
+}
+.press-button {
+  font-size: 12px;
+}
+#finish-button {
+  padding: 10px 20px;
+  background-color: #e64a93;
+  width: 220px;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#finish-button:hover {
+  background-color: #555;
+}
+
+.circle-icon.selected {
+  background-color: #333;
+}
+
+/* ******************************PROFILE CSS ENDS HERE **************************/
+
+/* ******************************PROFILE CSS STARTS HERE **************************/
+
+.container2 {
+  max-width: 800px;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 20px;
+}
+.container2 .content h3{
+  margin: 20px 0px 20px 0px;
+}
+.container2 .content .small-letter{
+  margin: 0px 0px 50px 0px;
+}
+.container2 .content h2{
+  margin: 0px 0px 20px 0px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.content {
+  margin-top: 50px;
+}
+.content .location-here {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+.location-here label {
+  margin: 0px 0px 20px 0px;
+
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+.location-here input {
+  margin: 0px 0px 0px 0px;
+
+  border: none;
+  border-bottom: 0.1px solid rgb(91, 90, 90);
+  background-color: white;
+  width: 600px;
+}
+.fa-angle-up {
+  transform: rotate(90deg);
+}
+.content {
+  margin-top: 50px;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.small-letter {
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+}
+.row-choose {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.avatar-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.image-row {
+  display: flex;
+  height: 10rem;
+  width: 11rem;
+
+  background: black;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0;
+}
+
+.image-row img {
+  background-color: rgb(255, 255, 255);
+  height: 10rem;
+  width: 11rem;
+  /* margin-right: 10px; */
+  /* border-radius: 50%; Make the image circular */
+}
+#profile-pic{
+  height: 2%;
+  width: 200px;
+}
+.row-choose button {
+  background-color: rgb(251, 251, 251);
+  color: rgb(0, 0, 0);
+  border: none;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 10px 20px;
+  width: 150px;
+  font-size: 1rem;
+  margin-top: 20px;
+  cursor: pointer;
+}
+#readUrl{
+  display: none;
+}
+.white-button{
+
+  margin: 0px 0px 20px 0px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  display: flex;
+  text-align: center;
+  border: none;
+  justify-content: center;
+  border: 1px solid rgb(221, 219, 219);
+  border-radius: 8px;
+  padding: 10px 20px;
+  width: 180px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.pink-button {
+ 
+  margin: 30px 0px 20px 0px;
+  background-color: #e64a93;
+  color: rgb(0, 0, 0);
+  display: flex;
+  text-align: center;
+  border: none;
+  justify-content: center;
+  border: 1px solid rgb(221, 219, 219);
+  border-radius: 8px;
+  padding: 10px 20px;
+  width: 180px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.pink-button:hover {
+  background-color: #e25295;
+  color: rgb(255, 255, 255);
+  border: none;
+  /* border: 1px solid black; */
+  border-radius: 8px;
+  padding: 10px 20px;
+  width: 200px;
+  font-size: 1rem;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.choose-text {
+  color: silver;
+}
+.press-return {
+  display: flex;
+  font-size: 0.8rem;
+  margin-top: 10px;
+  text-align: center;
+  cursor:pointer;
+}
+
+/* ******************************PROFILE CSS ENDS HERE **************************/
+/* ******************************PROFILE CSS STARTS HERE **************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.left-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.right-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.container4 {
+  height: 100vh;
+  width: 100vw;
+}
+.verification-section {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 80vh;
+  flex-direction: column;
+}
+.verification-content h2{
+  font-size: 30px;
+  font-weight: 100px;
+  
+}
+.verification-content .fa-envelope{
+  font-size: 110px;
+  color: silver;
+  
+}
+.verification-content .fa-circle-check{
+  position: absolute;
+  top: 0px; /* Adjust as needed */
+  left: 80px; /* Adjust as needed */
+  font-size: 2.5em; /* Adjust as needed */
+  background-color: white;
+  color: #e64a93;
+  border-radius: 50%;
+  padding: 6px;
+}
+.logo-email{
+  position: relative;
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.email-info{
+  margin:10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+.verification-content p{
+ margin-top:10px;
+ margin-bottom: 20px;
+}
+.email-info p span{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 10px;
+  color: #e64a93;
+  font-weight: bold;
+}
+.email-info .resend{
+  margin: 20px 0px 20px 0px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+  width: 700px;
+  
+}
+.email-address{
+  font-weight: bold;
+  margin: 40px 0px 40px 0px;
+
+}
+
+.change-email-button span{
+  color: #e64a93;
+  font-weight: bold;
+
+}
+/* ******************************PROFILE CSS ENDS HERE **************************/
+
+
+
+
+
+
+
+/* ******************************PROFILE CSS STARTS HERE **************************/
+.container4 .navbar .left-nav div{
+  display: flex;
+  font-weight: 300;
+  justify-content: center;
+  margin: 0px 20px 0px 20px;
+}
+.container4 .navbar .left-nav div a{
+  display: flex;
+  font-size: 1rem;
+  justify-content: center;
+  margin: 0px 20px 0px 20px;
+}
+
+.right-nav input{
+  width: 7rem;
+  margin-right: 20px;
+  
+  
+}
+.icon-container {
+  position: relative;
+  display: inline-block;
+  margin: 0px 10px 0px 0px;
+}
+
+.fa-briefcase {
+  position: relative;
+}
+
+.fa-circle-xmark {
+  position: absolute;
+  font-size: 10px;
+  bottom: -8px;
+  left: 9px;
+  background-color: white;
+  padding: 3px;
+  border-radius: 50%;
+}
+.right-nav input{
+  width: 7rem;
+  margin-right: 20px;
+
+  
+}
+
+.right-nav .profile-pic{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0px 10px 0px 0px;
+  
+}
+.right-nav .profile-pic img{
+
+  height: 25px;
+  
+}
+.search-container {
+  position: relative;
+}
+
+.search-container input[type="text"] {
+  padding-left: 30px; /* Adjust as needed */
+}
+
+.search-container i {
+  position: absolute;
+  left: 10px; /* Adjust as needed */
+  top: 50%;
+  transform: translateY(-50%);
+}
+.right-nav .upload-button{
+
+  border: none;
+  height: 22px;
+  width: 60px;
+  border-radius: 6px;
+  color: white;
+  font-size: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+  background-color: #e64a93;
+
+  
+}
+.logo1{
+  font-size: 30px;
+  margin-left: 20px;
+  font-family: "Style Script", cursive;
+}
+.bottom-container{
+  margin: 20px;
+}
+.six-rows {
+  display: flex;
+  flex-wrap: wrap;
+  height: 80vh;
+}
+.logo-section1{
+  font-size: 30px;
+  margin-left: 20px;
+  font-family: "Style Script", cursive;
+  color: #e64a93;
+  margin: auto;
+  font-weight: bold;
+  font-size: 40px;
+}
+.sectoon1{
+  width:  19rem;
+  font-size: 19px; 
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.setion-profiles{
+  margin-top:40px;
+}
+.cut-hr {
+  width: 94%;
+  
+  margin: 0 auto; /* Centers the <hr> horizontally */
+}
+.setion-profiles i{
+  margin: 0px 16px 0px 0px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.larger-row {
+  flex-grow: 2; /* Make the first row twice as wide */
+  /* Add any other styling for the larger row */
+}
+
+.row {
+ text-align: start;
+  width: calc(88% / 6);
+  /* Adjust as needed */
+  padding: 10px;
+ 
+  /* Add any other styling for the row */
+}
+.row div{
+  margin: 20px 0px 20px 0px;
+  font-weight: 300;
+  cursor: pointer;
+  font-style: normal;
+}
+.Heading{
+  font-size: large;
+    /* font-weight: bold; */
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+.elements{
+
+  color: rgb(134, 133, 133);
+}
+.footer {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  margin: 0px 28px 0px 28px;
+  /* Add any other styling for the footer */
+}
+.footer .right-corner i{
+  color: #922b5b;
+  background-color: #e64a93;
+  border-radius: 50%;
+}
+
+
+/* ******************************PROFILE CSS ENDS HERE **************************/
+
+
+
+
+
+
+/* ******************************Media Quesy STARTS HERE **************************/
+@media screen and (max-width: 768px) {
+  /* Specific CSS styles for screens with a maximum width of 768 pixels */
+
+  /* Example:
+  body {
+    font-size: 14px;
+  }
+  */
+
+  .container4 .navbar .left-nav div,
+  .container4 .navbar .left-nav div a {
+    margin: 0px 10px 0px 10px;
+  }
+
+  .right-nav input {
+    width: auto;
+    margin-right: 10px;
+  }
+
+  .right-nav .upload-button {
+    width: auto;
+  }
+
+  .search-container input[type="text"] {
+    padding-left: 25px;
+  }
+
+  .setion-profiles i {
+    margin: 0px 10px 0px 0px;
+    font-size: 20px;
+  }
+
+  .cut-hr {
+    width: 90%;
+  }
+
+  .row {
+    width: calc(100% / 3);
+  }
+
+  .footer {
+    margin: 0px 10px 0px 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  /* Specific CSS styles for screens with a maximum width of 576 pixels */
+
+  /* Example:
+  body {
+    font-size: 12px;
+  }
+  */
+
+  .container4 .navbar .left-nav div,
+  .container4 .navbar .left-nav div a {
+    margin: 0px 5px 0px 5px;
+  }
+
+  .right-nav input {
+    width: auto;
+    margin-right: 5px;
+  }
+
+  .right-nav .upload-button {
+    width: auto;
+  }
+
+  .search-container input[type="text"] {
+    padding-left: 20px;
+  }
+
+  .setion-profiles i {
+    margin: 0px 5px 0px 0px;
+    font-size: 18px;
+  }
+
+  .cut-hr {
+    width: 85%;
+  }
+
+  .row {
+    width: calc(100% / 2);
+  }
+
+  .footer {
+    margin: 0px 5px 0px 5px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* Specific CSS styles for screens with a maximum width of 320 pixels */
+
+  /* Example:
+  body {
+    font-size: 10px;
+  }
+  */
+
+  .container4 .navbar .left-nav div,
+  .container4 .navbar .left-nav div a {
+    margin: 0px 3px 0px 3px;
+  }
+
+  .right-nav input {
+    width: auto;
+    margin-right: 3px;
+  }
+
+  .button-link1 {
+    width: auto;
+    color: white;
+  
+  }
+
+  .search-container input[type="text"] {
+    padding-left: 15px;
+  }
+
+  .setion-profiles i {
+    margin: 0px 3px 0px 0px;
+    font-size: 16px;
+  }
+
+  .cut-hr {
+    width: 80%;
+  }
+
+  .row {
+    width: 100%;
+  }
+
+  .footer {
+    margin: 0px 3px 0px 3px;
+  }
+}
+
+
+/* ******************************Media Quesy ENds HERE **************************/
+/* ******************************MAIN PAGE STRTS HERE **************************/
+
+.options-container {
+  display: flex;
+}
+
+.option1 {
+  cursor: pointer;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  margin-right: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+.option1:hover  {
+  transform: translateY(10px);
+
+  border: 3px solid #e64a93;
+
+  text-align: center;
+  width: 400px;
+  height: 200px;
+  
+  transition: transform 0.5s ease-in, width 0.5s ease-in, height 0.5s ease-in; /* Added transition properties for width and height */
+  /* transition: transform 0.5s ease-out, width 0.5s ease-out, height 0.5s ease-out; */
+  border-radius: 15px;
+  /* transform: translatex(5px); */
+}
+
+.unique-option1{
+  background-image: url('backsignup.jpeg');
+}
+.unique-option2{
+  background-image: url('13826.jpg');
+}
+.unique-option3{
+  background-image: url('13829.jpg');
+}
+.unique-option4{
+  background-image: url('13832.jpg');
+}
+.option-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 20px;
+  transition: transform 0.3s ease-in;
+}
+
+.container5{
+ 
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  flex-direction: column;
+
+}
+.title-cont{
+  font-size: 40px;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 20px;
+  /* Gradient background */
+  background-image: linear-gradient(to right, #ff6347, #1e90ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: shiftColor 5s infinite linear;
+
+}
+
+/* Animation for smooth color shift */
+@keyframes shiftColor {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
+}
+/* ******************************MAIN PAGE ENDS HERE **************************/
+
